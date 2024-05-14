@@ -185,7 +185,7 @@ void buscarElementoArvore(NO* no, int valor)
 	}
 
 	if (no->valor == valor) {
-		cout << "Elemento encontrado \n";
+		cout << "Elemento encontrado: " << no->valor << endl;
 		return;
 	}
 
